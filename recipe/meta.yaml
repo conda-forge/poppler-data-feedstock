@@ -18,14 +18,11 @@ build:
 
 requirements:
   build:
-    - m2-make  # [win]
-    - posix  # [win]
   run:
 
 test:
   commands:
-    - test -f $PREFIX/share/poppler/cidToUnicode/Adobe-CNS1  # [unix]
-    - if not exist %PREFIX%\\share\\poppler\\cidToUnicode\\Adobe-CNS1 exit 1  # [win]
+    - test -f $PREFIX/share/poppler/cidToUnicode/Adobe-CNS1 
 
 about:
   home: https://poppler.freedesktop.org/
