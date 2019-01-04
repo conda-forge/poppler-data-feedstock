@@ -16,9 +16,8 @@ Summary: Encoding data for the Poppler PDF manipulation library.
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/poppler-data-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/poppler-data-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/poppler-data-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/poppler-data-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/poppler-data-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/poppler-data-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/poppler-data-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/poppler-data-feedstock)
 
 Current release info
 ====================
