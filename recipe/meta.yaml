@@ -14,7 +14,7 @@ build:
   number: 1
   noarch: generic
   script:
-    - make install prefix=$PREFIX 
+    - make install prefix=$PREFIX
 
 requirements:
   build:
@@ -22,7 +22,7 @@ requirements:
 
 test:
   commands:
-    - test -f $PREFIX/share/poppler/cidToUnicode/Adobe-CNS1 
+    - test -f $PREFIX/share/poppler/cidToUnicode/Adobe-CNS1
 
 about:
   home: https://poppler.freedesktop.org/
