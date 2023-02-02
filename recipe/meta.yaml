@@ -36,7 +36,7 @@ about:
     - COPYING
     - COPYING.adobe
     - COPYING.gpl2
-    - COPYING.gpl3
+    - licenses/COPYING.gpl3  # not currently included in source tarball
   summary: Encoding data for the Poppler PDF manipulation library.
 
 extra:
